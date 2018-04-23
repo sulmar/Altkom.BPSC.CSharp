@@ -28,6 +28,7 @@ namespace BPSC.CSharp.Shop.ConsoleClient
 
         }
 
+        // Inicjalizacja za pomocą konstruktora bezparametrycznego
         private static void CreateOrderTest()
         {
             Order order = new Order();
