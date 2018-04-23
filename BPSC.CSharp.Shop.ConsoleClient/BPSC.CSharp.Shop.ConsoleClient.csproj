@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2F8AF55B-CDE3-43E6-9050-ADAF622287BE}</ProjectGuid>
+    <ProjectGuid>{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BPSC.CSharp.ConsoleClient</RootNamespace>
-    <AssemblyName>BPSC.CSharp.ConsoleClient</AssemblyName>
+    <RootNamespace>BPSC.CSharp.Shop.ConsoleClient</RootNamespace>
+    <AssemblyName>BPSC.CSharp.Shop.ConsoleClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BPSC.CSharp.Shop.Models\BPSC.CSharp.Shop.Models.csproj">
-      <Project>{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}</Project>
+      <Project>{0b9519dd-c3a7-4907-add2-57cc69273b7d}</Project>
       <Name>BPSC.CSharp.Shop.Models</Name>
     </ProjectReference>
   </ItemGroup>

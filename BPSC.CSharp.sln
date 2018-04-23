@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.ConsoleClient", "BPSC.CSharp.ConsoleClient\BPSC.CSharp.ConsoleClient.csproj", "{2F8AF55B-CDE3-43E6-9050-ADAF622287BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.Models", "BPSC.CSharp.Shop.Models\BPSC.CSharp.Shop.Models.csproj", "{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.ConsoleClient", "BPSC.CSharp.Shop.ConsoleClient\BPSC.CSharp.Shop.ConsoleClient.csproj", "{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2F8AF55B-CDE3-43E6-9050-ADAF622287BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F8AF55B-CDE3-43E6-9050-ADAF622287BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F8AF55B-CDE3-43E6-9050-ADAF622287BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9519DD-C3A7-4907-ADD2-57CC69273B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
