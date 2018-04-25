@@ -19,11 +19,13 @@ namespace BPSC.CSharp.Shop.ConsoleClient
         // Inicjalizacja za pomocą inicjalizatorów
         private static void CreateOrderTest2()
         {
-            var order = new Order
+            Customer customer = new Customer("Marcin", "Sulecki");
+
+            var order = new Order(customer)
             {
                 Id = 1,
                 OrderNumber = "ZAM 001",
-                OrderDate = DateTime.Now,
+               // OrderDate = DateTime.Now,
             };
 
         }
@@ -31,10 +33,47 @@ namespace BPSC.CSharp.Shop.ConsoleClient
         // Inicjalizacja za pomocą konstruktora bezparametrycznego
         private static void CreateOrderTest()
         {
-            Order order = new Order();
+            Customer customer = new Customer("Marcin", "Sulecki");
+
+            Order order = new Order(customer);
             order.Id = 1;
             order.OrderNumber = "ZAM 001";
-            order.OrderDate = DateTime.Now;
+            // order.OrderDate = DateTime.Now;
+
+            Item item1 = new Product
+            {
+                Id = 100,
+                Name = "Klawiatura",
+                Code = "KEY645645",
+                Color = "Black",
+                UnitPrice = 30
+            };
+
+            Item item2 = new Service
+            {
+                Id = 101,
+                Name = "Usługi informatyczne",
+                Code = "SRV44884",
+                UnitPrice = 100
+            };
+
+
+            OrderDetail orderDetail1 = new OrderDetail(item1, 9)
+            {
+                Id = 1,                
+            };
+
+            OrderDetail orderDetail2 = new OrderDetail(item2, 1);
+
+            orderDetail1.Quantity = 100;
+
+           // Console.WriteLine($"Kwota pozycji: {orderDetail1.Amount}");
+
+            order.Details.Add(orderDetail1);
+            order.AddOrderDetail(orderDetail2);
+
+            Console.WriteLine(order.ToString());
+            
         }
     }
 }

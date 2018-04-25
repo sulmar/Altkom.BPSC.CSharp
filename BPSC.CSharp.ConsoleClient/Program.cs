@@ -55,7 +55,7 @@ namespace BPSC.CSharp.ConsoleClient
         {
             var x = "World";
 
-            Customer customer = new Customer();
+            Customer customer = new Customer("Marcin", "Sulecki");
 
             var customerInfo = new
             {

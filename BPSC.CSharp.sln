@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.ConsoleClient", "BPSC.CSharp.Shop.ConsoleClient\BPSC.CSharp.Shop.ConsoleClient.csproj", "{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.UnitTests", "BPSC.CSharp.Shop.UnitTests\BPSC.CSharp.Shop.UnitTests.csproj", "{54CA4A61-D6CF-4180-9F35-636E4EDAA67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPSC.CSharp.Shop.IServices", "BPSC.CSharp.Shop.IServices\BPSC.CSharp.Shop.IServices.csproj", "{44F965DC-3007-4244-9037-3E9A780DAD8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0955BA7B-52BC-4BB3-8D51-2CC908417D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54CA4A61-D6CF-4180-9F35-636E4EDAA67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CA4A61-D6CF-4180-9F35-636E4EDAA67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CA4A61-D6CF-4180-9F35-636E4EDAA67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CA4A61-D6CF-4180-9F35-636E4EDAA67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F965DC-3007-4244-9037-3E9A780DAD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F965DC-3007-4244-9037-3E9A780DAD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F965DC-3007-4244-9037-3E9A780DAD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F965DC-3007-4244-9037-3E9A780DAD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
